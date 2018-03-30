@@ -13,10 +13,10 @@ public class Main {
     }
 
     // private static String print(IceTask<Object>[] ts) {
-    //     for (int i = 0; i < 10; i++) {
-    //         System.out.println(i+">>>"+ts[i]);
-    //     }
-    //     return null;
+    // for (int i = 0; i < 10; i++) {
+    // System.out.println(i+">>>"+ts[i]);
+    // }
+    // return null;
     // }
     private static String print(IceTaskWrap[] ts) {
         for (int i = 0; i < 10; i++) {

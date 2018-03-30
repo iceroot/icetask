@@ -63,9 +63,6 @@ public class IceTaskThread extends Thread {
                         }
                     }
                 }.start();
-                // System.out.println(tasks[i] + ">>>>" + DateUtil.formatDateTime(new Date()));
-            } else {
-                // System.out.println(tasks[i] + "))))" + DateUtil.formatDateTime(new Date()));
             }
             if (i == tasks.length - 1) {
                 TaskConext.clear();
